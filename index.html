@@ -5,113 +5,127 @@
   <title>Famous Bible Stories</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px 60px;
-      background-color: #f9f6f1;
-      color: #333;
-      line-height: 1.6;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0B2545;
+      color: #F9F6F1;
+      margin: 0;
+      padding: 0;
     }
-
-    h1 {
+    header {
+      background-color: #001B3A;
+      padding: 40px 20px;
       text-align: center;
-      color: #2a5d84;
-      margin-bottom: 40px;
-      font-weight: 700;
+    }
+    header h1 {
       font-size: 2.8em;
-      text-shadow: 1px 1px 3px #a7a7a7;
+      color: #D4AF37;
+      letter-spacing: 2px;
     }
-
-    p.intro {
-      text-align: center;
-      font-size: 1.15em;
-      max-width: 600px;
-      margin: 0 auto 50px;
-      color: #555;
+    header p {
+      font-size: 1.2em;
+      color: #F0EAD6;
     }
-
-    ul.story-list {
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #D4AF37;
+      border-bottom: 2px solid #B38F16;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+    }
+    ul {
       list-style: none;
       padding: 0;
       columns: 2;
-      column-gap: 50px;
     }
-
-    ul.story-list li {
-      margin-bottom: 18px;
-      break-inside: avoid;
+    li {
+      margin-bottom: 10px;
     }
-
-    ul.story-list a {
+    a {
+      color: #FFD700;
       text-decoration: none;
-      font-size: 1.15em;
-      color: #2a5d84;
-      font-weight: 600;
-      border-bottom: 1.5px solid transparent;
-      transition: border-color 0.3s, color 0.3s;
+      font-weight: bold;
     }
-
-    ul.story-list a:hover {
-      color: #740001;
-      border-bottom: 1.5px solid #740001;
+    a:hover {
+      color: #F0D94E;
+      text-decoration: underline;
     }
-
     footer {
-      margin-top: 60px;
       text-align: center;
+      padding: 20px;
+      color: #B38F16;
+      border-top: 1px solid #B38F16;
+      margin-top: 40px;
       font-size: 0.9em;
-      color: #777;
-      border-top: 1px solid #ccc;
-      padding-top: 20px;
-    }
-
-    @media (max-width: 600px) {
-      ul.story-list {
-        columns: 1;
-      }
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Famous Bible Stories</h1>
+    <p>Explore powerful stories from the Old and New Testaments</p>
+  </header>
+  <main>
+    <section>
+      <h2>About</h2>
+      <ul>
+        <li><a href="about.html">About the Bible</a></li>
+      </ul>
+    </section>
 
-  <h1>Famous Bible Stories</h1>
+    <section>
+      <h2>Old Testament</h2>
+      <ul>
+        <li><a href="creation.html">Creation</a></li>
+        <li><a href="adam-eve.html">Adam and Eve</a></li>
+        <li><a href="cain-and-abel.html">Cain and Abel</a></li>
+        <li><a href="noahs-ark.html">Noah's Ark</a></li>
+        <li><a href="tower-of-babel.html">Tower of Babel</a></li>
+        <li><a href="abraham-covenant.html">Abraham's Covenant</a></li>
+        <li><a href="abraham-isaac.html">Abraham and Isaac</a></li>
+        <li><a href="jacob-and-esau.html">Jacob and Esau</a></li>
+        <li><a href="joseph-brothers.html">Joseph and His Brothers</a></li>
+        <li><a href="moses-burning-bush.html">Moses and the Burning Bush</a></li>
+        <li><a href="exodus-red-sea.html">The Exodus and Red Sea</a></li>
+        <li><a href="ten-commandments.html">The Ten Commandments</a></li>
+        <li><a href="joshua-jericho.html">Joshua and Jericho</a></li>
+        <li><a href="ruth-and-naomi.html">Ruth and Naomi</a></li>
+        <li><a href="samuel-anoints-david.html">Samuel Anoints David</a></li>
+        <li><a href="samson-delilah.html">Samson and Delilah</a></li>
+        <li><a href="solomon-wisdom.html">Solomon's Wisdom</a></li>
+        <li><a href="elijah-mount-carmel.html">Elijah on Mount Carmel</a></li>
+        <li><a href="daniel-lions-den.html">Daniel in the Lion's Den</a></li>
+        <li><a href="jonah-and-whale.html">Jonah and the Whale</a></li>
+        <li><a href="david-and-goliath.html">David and Goliath</a></li>
+      </ul>
+    </section>
 
-  <p class="intro">
-    Discover some of the most beloved and important stories from the Bible. Click on any story to learn its summary and meaning.
-  </p>
-
-  <ul class="story-list">
-    <li><a href="creation.html">Creation</a></li>
-    <li><a href="adam-eve.html">Adam and Eve</a></li>
-    <li><a href="noahs-ark.html">Noah’s Ark</a></li>
-    <li><a href="tower-of-babel.html">Tower of Babel</a></li>
-    <li><a href="abrahams-covenant.html">Abraham’s Covenant</a></li>
-    <li><a href="sacrifice-of-isaac.html">Sacrifice of Isaac</a></li>
-    <li><a href="jacob-and-esau.html">Jacob and Esau</a></li>
-    <li><a href="joseph-and-coat.html">Joseph and His Coat of Many Colors</a></li>
-    <li><a href="moses-burning-bush.html">Moses and the Burning Bush</a></li>
-    <li><a href="exodus-red-sea.html">The Exodus and Parting of the Red Sea</a></li>
-    <li><a href="ten-commandments.html">The Ten Commandments</a></li>
-    <li><a href="joshua-jericho.html">Joshua and the Battle of Jericho</a></li>
-    <li><a href="samson-delilah.html">Samson and Delilah</a></li>
-    <li><a href="ruth-and-naomi.html">Ruth and Naomi</a></li>
-    <li><a href="samuel-anoints-david.html">Samuel Anoints David</a></li>
-    <li><a href="david-and-goliath.html">David and Goliath</a></li>
-    <li><a href="david-and-bathsheba.html">David and Bathsheba</a></li>
-    <li><a href="solomons-wisdom.html">Solomon’s Wisdom</a></li>
-    <li><a href="elijah-and-prophets.html">Elijah and the Prophets of Baal</a></li>
-    <li><a href="jonah-and-whale.html">Jonah and the Whale</a></li>
-    <li><a href="daniel-lions-den.html">Daniel in the Lion’s Den</a></li>
-    <li><a href="birth-of-jesus.html">The Birth of Jesus</a></li>
-    <li><a href="jesus-feeds-5000.html">Jesus Feeds the 5,000</a></li>
-    <li><a href="prodigal-son.html">The Parable of the Prodigal Son</a></li>
-    <li><a href="crucifixion-resurrection.html">The Crucifixion and Resurrection of Jesus</a></li>
-  </ul>
-
+    <section>
+      <h2>New Testament</h2>
+      <ul>
+        <li><a href="birth-of-jesus.html">The Birth of Jesus</a></li>
+        <li><a href="wise-men-visit.html">Visit of the Wise Men</a></li>
+        <li><a href="jesus-baptism.html">Baptism of Jesus</a></li>
+        <li><a href="temptation-of-jesus.html">Temptation of Jesus</a></li>
+        <li><a href="jesus-disciples.html">Jesus Calls His Disciples</a></li>
+        <li><a href="jesus-feeds-5000.html">Jesus Feeds the 5,000</a></li>
+        <li><a href="jesus-walks-on-water.html">Jesus Walks on Water</a></li>
+        <li><a href="good-samaritan.html">The Good Samaritan</a></li>
+        <li><a href="crucifixion.html">The Crucifixion</a></li>
+        <li><a href="resurrection.html">The Resurrection</a></li>
+        <li><a href="death-resurrection.html">Jesus' Death & Resurrection</a></li>
+      </ul>
+    </section>
+  </main>
   <footer>
-    &copy; 2025 Famous Bible Stories | Created with ❤️
+    &copy; 2025 Famous Bible Stories | Designed with faith and simplicity
   </footer>
-
 </body>
 </html>
